@@ -1,4 +1,4 @@
-# Time Calculator
+# Time Calculator with Python
 
 Building a Time Calculator Project with a function named add_time that takes in two required parameters and one optional parameter:
 
@@ -48,7 +48,7 @@ add_time('6:30 PM', '205:12')
 
 No Python libraries are imported. Assume that the start times are valid times. The minutes in the duration time will be a whole number less than 60, but the hour can be any whole number.
 
-### User stories/tests that need to be passed:
+## User stories/tests:
 
 - [x] Calling add_time('3:30 PM', '2:12') should return '5:42 PM'.
 - [x] Calling add_time('11:55 AM', '3:12') should return '3:07 PM'.
